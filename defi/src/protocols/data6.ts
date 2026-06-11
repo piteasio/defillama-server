@@ -6203,5 +6203,33 @@ const data6: Protocol[] = [
       dexs: "wager-up-pilot",
     }
   },
+  {
+    id: "8003",
+    name: "Piteas",
+    address: "pulse:0x2A06a971fE6ffa002fd242d437E3db2b5cC5B433",
+    symbol: "PTS",
+    url: "https://app.piteas.io",
+    description:
+      "Piteas is a DEX aggregator on PulseChain that routes swaps across PulseX and other DEXs for optimal pricing.",
+    chain: "Pulse",
+    logo: `${baseIconsUrl}/piteas.png`,
+    audits: "2",
+    audit_links: [
+      "https://docs.piteas.io/audit",
+      "https://github.com/solidproof/projects/tree/main/2023/Piteas",
+    ],
+    gecko_id: "piteas",
+    cmcId: "28120",
+    category: "DEX Aggregator",
+    chains: ["Pulse"],
+    module: "dummy.js",
+    twitter: "piteasio",
+    github: ["piteasio"],
+    listedAt: 1688765745,
+    dimensions: {
+      aggregators: "piteas",
+      fees: "piteas",
+    },
+  },
 ];
 export default data6;
