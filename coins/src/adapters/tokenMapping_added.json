@@ -8257,6 +8257,11 @@
       "decimals": "6",
       "symbol": "USDT",
       "to": "coingecko#tether"
+    },
+    "0x2a06a971fe6ffa002fd242d437e3db2b5cc5b433": {
+      "decimals": "18",
+      "symbol": "PTS",
+      "to": "coingecko#piteas"
     }
   },
   "xpla": {
